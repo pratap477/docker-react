@@ -9,10 +9,3 @@ services:
       - .:/app
     ports: 
       - 3000:3000
-  prod-web:
-    build: 
-      context: .
-      dockerfile: 'Dockerfile.prod'
-    ports: 
-      - 80:80 
-  
